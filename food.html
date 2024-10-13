@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="Pyramid_CSS.css">
+    <script>
+     var i = 0;
+    function increase() {
+        document.getElementById('inc1').value = ++i;
+        
+    }
+    function decrease() {
+      if (i > 0) {
+    document.getElementById('inc1').value = --i;
+    } 
+    }
+    
+    var i2 = 0;
+    function increase2() {
+        document.getElementById('inc2').value = ++i2;
+    }
+    function decrease2() {
+      if (i2 > 0) {
+    document.getElementById('inc2').value = --i2;
+    } 
+    }
+    var i3 = 0;
+    function increase3() {
+        document.getElementById('inc3').value = ++i3;
+    }
+    function decrease3() {
+      if (i3 > 0) {
+    document.getElementById('inc3').value = --i3;
+    } 
+    }
+    var i4 = 0;
+    function increase4() {
+        document.getElementById('inc4').value = ++i4;
+    }
+    function decrease4() {
+      if (i4 > 0) {
+    document.getElementById('inc4').value = --i4;
+    } 
+    }
+    var i5 = 0;
+    function increase5() {
+        document.getElementById('inc5').value = ++i5;
+    }
+    function decrease5() {
+      if (i5 > 0) {
+    document.getElementById('inc5').value = --i5;
+    } 
+
+    }
+    var i6 = 0;
+    function increase6() {
+        document.getElementById('inc6').value = ++i6;
+    }
+    function decrease6() {
+      if (i6 > 0) {
+    document.getElementById('inc6').value = --i6;
+    } 
+    }
+      </script>
+      
+  </head>
+  <body>
+          <section>
+            <div class="triangle">
+              <div class="sweets">
+                
+                <div class="info1">
+                </div>
+
+                <button class= "button1" onclick="increase6();">+</button>
+                <input type="text" id="inc6" value="0"></input>               
+                <button class= "button2"onclick="decrease6();">-</button>
+              
+              </div>
+              <div class="fats">
+
+                <div class="info">
+                </div>
+                
+                <button class= "button3" onclick="increase();">+</button>
+                <input type="text" id="inc1" value="0"></input>                
+                <button class= "button4" onclick="decrease();">-</button>
+
+              </div>
+              <div class="meats">
+
+                <div class="info">
+                </div>
+
+                <button class= "button5" onclick="increase2();">+</button>
+                <input type="text" id="inc2" value="0"></input>                
+                <button class= "button6" onclick="decrease2();">-</button>
+
+              </div>
+              <div class="dairy">
+
+                <div class="info">
+                </div>
+
+                <button class= "button7" onclick="increase3();">+</button>
+                <input type="text" id="inc3" value="0"></input>                
+                <button class= "button8" onclick="decrease3();">-</button>
+
+              </div>
+              <div class="wholemeal">
+
+                <div class="info">
+                </div>
+
+                <button class= "button9" onclick="increase4();">+</button>
+                <input type="text" id="inc4" value="0"></input>                
+                <button class= "button10"onclick="decrease4();">-</button>
+
+              </div>
+              <div class="fruit">
+
+                <div class="info">
+                </div>
+
+                <button class= "button11" onclick="increase5();">+</button>
+                <input type="text" id="inc5" value="0"></input>                
+                <button class= "button12"onclick="decrease5();">-</button>
+
+              </div>
+            </div>
+            <label for="today">Date:</label>
+            <input type="date" id="today" name="today" value="2023-02-19">
+
+          </section>
+
+    <footer>
+
+    </footer>
+  </body>
+</html>
